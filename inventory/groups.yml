@@ -1,0 +1,21 @@
+## Nornir Groups File 
+---
+iosv: 
+
+  data: 
+    ntp: 
+      servers: 
+        - 1.1.1.1
+
+juniper:
+
+  platform: junos
+  username: steve 
+  password: root123
+
+zebras: {}
+
+devnet:
+
+  username: developer
+  password: C1sco12345
